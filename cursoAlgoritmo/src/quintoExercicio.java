@@ -20,7 +20,7 @@ import java.util.Scanner;
                         porcentagem = (valor * 20) /100;
                         valorfinal = porcentagem + valor;
                     
-                        if(sim == ) {
+                        if(pergunta.toUpperCase().equals("SIM") {
                             System.out.print("Você deseja parcelar?  ");
                             pergunta = input.next();
     
