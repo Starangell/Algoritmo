@@ -1,5 +1,5 @@
 import java.util.Scanner;
-            public class quintoExercicio {
+            public class Main {
                 public static void main(String[] args) {
                     Scanner input = new Scanner(System.in);
 
@@ -19,10 +19,12 @@ import java.util.Scanner;
 
                         porcentagem = (valor * 20) /100;
                         valorfinal = porcentagem + valor;
-                    
-                        if(pergunta.toUpperCase().equals("SIM")) {
-                            System.out.print("Você deseja parcelar?  ");
+                        
+                        System.out.print("Você deseja parcelar?  ");
                             pergunta = input.next();
+                            
+                        if(pergunta.toUpperCase().equals("SIM")) {
+                            
     
                                 System.out.println("Quantas parcelas? ");
                                     parcelas = input.nextInt();
@@ -35,5 +37,3 @@ import java.util.Scanner;
                         }
                 }
             }
-
-//projeto incompleto falta colocar os if e else
