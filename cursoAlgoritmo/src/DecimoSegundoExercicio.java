@@ -7,7 +7,6 @@ public class DecimoSegundoExercicio {
         float nota1;
         float nota2;
         float media;
-        String aproveita = "";
 
         System.out.println("--------------------------- ");
         System.out.println("ESCOLA DOMINGOS ALBUQUERQUE ");
@@ -22,24 +21,18 @@ public class DecimoSegundoExercicio {
 
         media = (nota1 + nota2) / 2;
         System.out.println("MEDIA: " + media);
-        if (media >= 9) {
-            System.out.println("APROVEITAMENTO: A");
-
-        } else if (media >= 8 && media >= 7) {
-            System.out.println("APROVEITAMENTO: B");
-
-        } else if (media >= 6 && media >= 5) {
-            System.out.println("APROVEITAMENTO: C");
-
-        } else if (media >= 4 && media >= 3) {
-            System.out.println("APROVEITAMENTO: D");
-
-        } else if (media >= 2 && media >= 1) {
-            System.out.println("APROVEITAMENTO: E");
-
+        if (media >= 9 && media <= 10) {
+            System.out.println("aproveitamento = A");
+        } else if (media >= 8 && media < 9) {
+            System.out.println("aproveitamento = B");
+        } else if (media >= 7 && media < 8) {
+            System.out.println("aproveitamento = C");
+        } else if (media >= 5 && media < 7) {
+            System.out.println("aproveitamento = D");
+        } else if (media >= 3 && media < 5) {
+            System.out.println("aproveitamento = E");
         } else {
-            System.out.println("APROVEITAMENTO: F");
-
+            System.out.println("aproveitamento = F");
         }
         System.out.println("--------------------------- ");
     }
