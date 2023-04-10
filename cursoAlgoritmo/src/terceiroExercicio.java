@@ -1,7 +1,10 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class TerceiroExercicio {
+public class terceiroExercicio {
     public static void main(String[] args) {
+
+        DecimalFormat df = new DecimalFormat("00.0");
 
         Scanner input = new Scanner(System.in);
 
@@ -14,7 +17,7 @@ public class TerceiroExercicio {
 
         cal = (f - 32) / 1.8f;
 
-        System.out.println("No Brasil estaria: " + cal + " ºC");
+        System.out.println("No Brasil estaria: " +df.format(cal) + " ºC");
 
     }
 }

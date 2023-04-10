@@ -2,7 +2,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class DecimoPrimeiroExercicio {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
@@ -38,7 +38,6 @@ public class DecimoPrimeiroExercicio {
                 break;
         }
         System.out.println("O novo salário de " + nome + "sera de R$ " + df.format(nsal));
-
     }
 }
 
