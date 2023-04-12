@@ -36,6 +36,7 @@ public class DecimoExercicio {
             case 5:
                 valor = 0;
                 break;
+            
                 
         }
         System.out.println("---------------------------");

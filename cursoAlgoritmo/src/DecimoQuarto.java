@@ -5,22 +5,32 @@ public class DecimoQuarto {
 
         Scanner input = new Scanner(System.in);
 
-        int contador;
-        int valor;
-        int salto;
+        int cont;
+        int n;
+        int maior = 0;
+        int menor = 0;
+        int s = 0;
 
-        System.out.print("Quer contar até quanto? ");
-        valor = input.nextInt();
 
-        System.out.print("Qual valor do salto? ");
-        salto = input.nextInt();
+        for(cont =1;cont<=5;cont++){
 
-        for(contador = 0; contador<= valor; contador += salto) {
-            System.out.println(contador);
+
+
+            System.out.println("Digite o " +cont +"o.valor");
+            n = input.nextInt();
+
+            if (n>maior) {
+
+                maior = n;
+            }
+            s = (s+n);
+        }
+        System.out.println("A soma de todos os valores foi " +s);
+        System.out.println("O maior valor digitado foi: " +maior);
+        System.out.println("O menor valor digitado foi: " +menor);
+
         }
 
-        
-        
 
 
 
@@ -32,7 +42,13 @@ public class DecimoQuarto {
 
 
 
-//em fase de aprendizagem sobre for
+
+
+
+
+
+
+
 
 
 
@@ -42,12 +58,13 @@ public class DecimoQuarto {
 
     }
 
-}
 
 
 
 
-/*O "for" é uma estrutura de controle em Java que permite executar um bloco de código repetidamente com base em um contador. Ele tem a seguinte sintaxe geral:
+
+/* //em fase de aprendizagem sobre for 
+O "for" é uma estrutura de controle em Java que permite executar um bloco de código repetidamente com base em um contador. Ele tem a seguinte sintaxe geral:
 
 for (inicialização; condição; atualização) {
     // bloco de código a ser executado
