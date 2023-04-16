@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DecimoExercicio {
+public class CriancaEsperanca {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
 

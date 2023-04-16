@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class terceiroExercicio {
+public class Temperatura {
     public static void main(String[] args) {
 
         DecimalFormat df = new DecimalFormat("00.0");

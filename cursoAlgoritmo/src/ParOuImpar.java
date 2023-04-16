@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SextoExecercicio {
+public class ParOuImpar {
     public static void main(String[] args) throws Exception {
 
         int n;

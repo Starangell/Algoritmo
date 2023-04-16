@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class SetimoExercicio {
+public class IMC {
     public static void main(String[] args) throws Exception {
 
         Scanner input = new Scanner(System.in);

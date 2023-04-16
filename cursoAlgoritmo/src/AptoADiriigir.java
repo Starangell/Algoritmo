@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OitavoExercicio {
+public class AptoADiriigir {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
 

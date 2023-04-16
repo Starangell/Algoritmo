@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DecimoQuarto {
+public class Contador {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

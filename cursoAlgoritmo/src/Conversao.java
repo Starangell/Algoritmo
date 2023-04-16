@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class SegundoExercicio {
+public class Conversao {
     public static void main(String[] args) {
 
         float reais;

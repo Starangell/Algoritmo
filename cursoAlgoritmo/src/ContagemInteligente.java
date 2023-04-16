@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DecimoQuinto {
+public class ContagemInteligente {
     public static void main(String[] args) {
 
         int ini;

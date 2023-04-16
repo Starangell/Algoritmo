@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class DecimoPrimeiroExercicio {
+public class FuncionarioDepedentes {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
