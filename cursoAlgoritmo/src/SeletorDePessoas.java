@@ -6,7 +6,7 @@ public class SeletorDePessoas {
 
         String pergunta;
         int p;
-        String idade;
+        String idade = "";
         String cabelo;
 
         do {
@@ -39,6 +39,7 @@ public class SeletorDePessoas {
             } while (p > 4 );
 
             if (pergunta.equalsIgnoreCase("18 ")) {
+                
                 
                 
             }else if (pergunta.equalsIgnoreCase("Castanho ")) {
