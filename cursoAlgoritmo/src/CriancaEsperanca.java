@@ -37,7 +37,7 @@ public class CriancaEsperanca {
                 valor = 0;
                 break;
             
-                
+    
         }
         System.out.println("---------------------------");
         System.out.println(" SUA DOAÇÃO FOI DE R$" + valor);
