@@ -8,8 +8,9 @@ public class Contador {
         int cont;
         int n;
         int maior = 0;
-        int menor = 0;
+        int menor = 100000000;
         int s = 0;
+        
 
         for (cont = 1; cont <= 5; cont++) {
 
@@ -19,6 +20,8 @@ public class Contador {
             if (n > maior) {
 
                 maior = n;
+            }else if(n<menor){
+                menor = n;
             }
             s = (s + n);
         }
@@ -30,7 +33,6 @@ public class Contador {
 
 }
 
-// incompleto "menor"
 
 /*
  * //em fase de aprendizagem sobre for
