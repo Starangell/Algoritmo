@@ -37,6 +37,7 @@ public class AnalisadorDeValores {
         System.out.println("Valores nulos: " + nulos);
         System.out.println("A soma dos valores pares é: " + pares);
 
+       
     }
 }
 /*Falta fazer os divisiveis por cinco; ):
