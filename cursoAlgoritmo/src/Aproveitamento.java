@@ -35,7 +35,7 @@ public class Aproveitamento {
             System.out.println("aproveitamento = F");
         }
         System.out.println("--------------------------- ");
-Systen.out.pritln();
+        System.out.println(" ");//foi so pra commit diario dia 02/05/2023 e ainda errei o comando ontem fiz pelo git online
     }
 }
 // Aproveitamento de um aluno
