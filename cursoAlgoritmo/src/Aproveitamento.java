@@ -35,6 +35,7 @@ public class Aproveitamento {
             System.out.println("aproveitamento = F");
         }
         System.out.println("--------------------------- ");
+Systen.out.pritln();
     }
 }
 // Aproveitamento de um aluno
