@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class ParouImparMetodo {
-   
-    //metodo 
+
+    // metodo
+
     static void ParouImpar(int v) {
         if (v % 2 == 0) {
             System.out.println("O número " + v + " é PAR ");
@@ -11,7 +12,6 @@ public class ParouImparMetodo {
         }
     }
 
-    
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

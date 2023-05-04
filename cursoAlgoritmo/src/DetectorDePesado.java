@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class DetectorDePesado {
     static void topo() {
         System.out.println("DETECTOR  DE  PESADO ");
+        
         //nao consegui fazer que nem no video porcausa da variavel dps tento concertar
     }
 
