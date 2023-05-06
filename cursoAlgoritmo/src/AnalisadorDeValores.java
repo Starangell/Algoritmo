@@ -24,6 +24,10 @@ public class AnalisadorDeValores {
             if (digite == 0) {
                 nulos++;
             }
+            if (digite % 5 == 0) {
+                divisi++;
+
+            }
 
             if (digite % 2 == 0) {
                 pares = pares + digite;
@@ -37,8 +41,11 @@ public class AnalisadorDeValores {
         System.out.println("Valores nulos: " + nulos);
         System.out.println("A soma dos valores pares é: " + pares);
 
-       
     }
 }
-/*Falta fazer os divisiveis por cinco; ):
+/*
+ * terminado as 16h15 no dia 06/05/2023
+ * terminei no mesmo dia do de fibonnacci
+ * (tive uma mini ajuda de cleverson ele so deu uma dica de qual sinal que era)
+ * (;
  */
