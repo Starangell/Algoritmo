@@ -33,6 +33,7 @@ public class TorneioDeFutVetor {
 //terminado dia: 12/05/2023 ás 15h20
 
 
+
 /*Versão do Guanabara:
  * algoritmo "TorneioFutebol"
 // =============================================================
@@ -65,4 +66,45 @@ inicio
       FimPara
    FimPara
 fimalgoritmo
+ */
+
+
+
+ 
+ /*import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String[] time = new String[3];
+
+        System.out.println("------------------");
+        System.out.println("CAMPEONATO FUTEBOL");
+        System.out.println("------------------");
+
+        for (int c = 0; c < 3; c++) {
+            System.out.print("Nome do " + (c + 1) + "o. time: ");
+            time[c] = scanner.nextLine();
+        }
+
+        clearScreen();
+        System.out.println("-------------------");
+        System.out.println(" TABELA DE PARTIDAS");
+        System.out.println("-------------------");
+
+        for (int l = 0; l < 3; l++) {
+            for (int c = 0; c < 3; c++) {
+                if (l != c) {
+                    System.out.printf("%-12s [ ] x [ ] %-12s\n", time[l], time[c]);
+                }
+            }
+        }
+    }
+
+    public static void clearScreen() {
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+    }
+}
+(versão chatgpt)
  */
