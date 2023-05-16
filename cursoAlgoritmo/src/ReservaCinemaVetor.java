@@ -15,6 +15,8 @@ public class ReservaCinemaVetor {
         System.out.print("Reservar a Cadeira: " + "B");
             reserva = input.next();
 
+            
+
             System.out.println("Deseja Continuar? [S/N] ");
             sn = input.next();
         
@@ -28,3 +30,4 @@ public class ReservaCinemaVetor {
 // exercicio aula 14 (Reseva cadeira cinema)
 // Em fase de construção
 //lembrete: fazer armanezar no array
+//commit diario
