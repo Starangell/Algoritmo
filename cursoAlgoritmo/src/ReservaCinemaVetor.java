@@ -13,8 +13,10 @@ public class ReservaCinemaVetor {
             for (int i = 1; i <= 1; i++) {
                 System.out.print("Reservar a Cadeira: " + "B");
                 reserva[i] = input.next();
-
             }
+            
+
+            
 
             System.out.print("Deseja Continuar? [S/N] ");
             sn = input.next();
