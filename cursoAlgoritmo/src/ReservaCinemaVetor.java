@@ -28,6 +28,6 @@ public class ReservaCinemaVetor {
 // exercicio aula 14 (Reseva cadeira cinema)
 // Em fase de construção
 // lembrete: testar codigo
-// commit diario 8 (me adptando ao win11 e a o linux) linuxx
+// commit diario 8 (me adptando ao win11 e a o linux) linuxxx
 // cleverson ta me dando uma pequena ajuda para fazer os exercicios dessa
 // aula(opinando dando ideais e etc);
