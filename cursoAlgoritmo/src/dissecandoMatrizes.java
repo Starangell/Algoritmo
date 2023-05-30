@@ -38,6 +38,29 @@ public class dissecandoMatrizes {
                     }
                     break;
                 case 2:
+                    System.out.println();
+                    for (l = 0; l < 1; l++) {
+                        for (c = 0; c < 1; c++) {
+                            System.out.print(matriz[l][c] + "  ");
+                        }
+                        System.out.println();
+                    }
+
+                    System.out.println();
+                    for (l = 0; l < 2; l++) {
+                        for (c = 0; c < 2; c++) {
+                            System.out.print(matriz[l][c] + "  ");
+                        }
+                        System.out.println();
+                    }
+
+                    System.out.println();
+                    for (l = 0; l < 3; l++) {
+                        for (c = 0; c < 3; c++) {
+                            System.out.print(matriz[l][c] + "  ");
+                        }
+                        System.out.println();
+                    }
 
                     break;
 
@@ -46,16 +69,6 @@ public class dissecandoMatrizes {
                     break;
 
                 case 4:
-                    System.out.println();
-                    for (c = 0; c < 1; c++) {
-                        System.out.print(matriz[c][0] + "  ");
-
-                    }
-                    System.out.println();
-                    for (l = 0; l < 2; l++) {
-                        System.out.print(matriz[l][0] + "  ");
-
-                    }
 
                     break;
 
@@ -69,4 +82,4 @@ public class dissecandoMatrizes {
     }
 
 }
-//codigo incompleto
+// codigo incompleto
