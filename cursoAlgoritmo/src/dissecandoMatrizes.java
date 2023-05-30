@@ -29,7 +29,7 @@ public class dissecandoMatrizes {
 
             switch (s) {
                 case 1:
-                    System.out.println();
+
                     for (l = 0; l < 4; l++) {
                         for (c = 0; c < 4; c++) {
                             System.out.print(matriz[l][c] + "  ");
@@ -38,29 +38,31 @@ public class dissecandoMatrizes {
                     }
                     break;
                 case 2:
-                    System.out.println();
-                    for (l = 0; l < 1; l++) {
-                        for (c = 0; c < 1; c++) {
-                            System.out.print(matriz[l][c] + "  ");
-                        }
-                        System.out.println();
+                for (l = 0; l < 1; l++) {
+                    for (c = 0; c < 1; c++) {
+                        System.out.print(matriz[l][c] + "  ");
                     }
-
                     System.out.println();
-                    for (l = 0; l < 2; l++) {
-                        for (c = 0; c < 2; c++) {
-                            System.out.print(matriz[l][c] + "  ");
-                        }
-                        System.out.println();
+                }
+                for (l = 1; l < 2; l++) {
+                    for (c = 1; c < 2; c++) {
+                        System.out.print(matriz[l][c] + "  ");
                     }
-
                     System.out.println();
-                    for (l = 0; l < 3; l++) {
-                        for (c = 0; c < 3; c++) {
-                            System.out.print(matriz[l][c] + "  ");
-                        }
-                        System.out.println();
+                }
+                for (l = 2; l < 3; l++) {
+                    for (c = 2; c < 3; c++) {
+                        System.out.print(matriz[l][c] + "  ");
                     }
+                    System.out.println();
+                }
+                for (l = 3; l < 4; l++) {
+                    for (c = 3; c < 4; c++) {
+                        System.out.print(matriz[l][c] + "  ");
+                    }
+                    System.out.println();
+                }
+                    
 
                     break;
 
