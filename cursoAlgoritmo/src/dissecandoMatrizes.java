@@ -39,7 +39,7 @@ public class dissecandoMatrizes {
                     break;
                 case 2:
                     for (l = 0; l < 4; l++) {
-                        System.out.print(matriz[l][l] + "  ");
+                        System.out.println(matriz[l][l] + "  ");
                         for (t = 0; t < 0; t++) {
                             System.out.println();
                         }
