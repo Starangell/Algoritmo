@@ -47,5 +47,5 @@ public class AnalisadorDeValores {
  * terminado as 16h15 no dia 06/05/2023
  * terminei no mesmo dia do de fibonnacci
  * (tive uma mini ajuda de cleverson ele so deu uma dica de qual sinal que era)
- * (;
+ * (;.
  */
